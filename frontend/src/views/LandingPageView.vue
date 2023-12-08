@@ -3,6 +3,7 @@
         <NavBar />
         <Hero />
         <Trifold />
+        <Pricing />
     </div>
 </template>
 
@@ -10,8 +11,9 @@
     import Hero from '../components/landing_page/Hero.vue';
     import NavBar from '../components/landing_page/NavBar.vue';
     import Trifold from '../components/landing_page/Trifold.vue';
+    import Pricing from '../components/landing_page/Pricing.vue';
     export default {
-        components: {Hero, NavBar, Trifold},
+        components: {Hero, NavBar, Trifold, Pricing},
     };
 </script>
 
